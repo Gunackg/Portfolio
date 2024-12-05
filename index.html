@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guna - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <img src="profile.jpg" alt="Profile Picture">
+      <div class="header-content">
+        <h1>GUNA V</h1>
+        <p>Software Developer</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello there! I'm a passionate and innovative software engineer with a knack for turning complex problems into elegant solutions. My journey in the world of technology has equipped me with a diverse skill set, ranging from full-stack development to system architecture design.</p>
+
+       <p>Looking ahead, I am excited about the opportunities that lie ahead in the tech industry. I am eager to join a dynamic team where I can contribute my skills and learn from experienced professionals. My goal is to work on innovative projects that make a positive impact on users and society.</p> 
+        
+        <p>I am a firm believer in continuous learning and improvement. I regularly participate in online courses and coding challenges to sharpen my skills and stay updated with the latest industry trends</p>
+        
+       <p> In addition to my technical skills, I am a strong communicator and a quick learner. I am adaptable and thrive in fast-paced environments. I am always looking for ways to improve my workflow and increase productivity.</p>
+        
+        <p>In conclusion, I am a dedicated and enthusiastic software developer, web developer, and web designer. I am committed to creating high-quality applications that enhance user experience and solve real-world problems. I am excited to embark on my professional journey and contribute to the ever-evolving world of technology.
+
+          Thank you for taking the time to learn more about me. I look forward to connecting with like-minded individuals and exploring new opportunities in the tech industry!</p>
+    </div>
+  </section>
+  <div class="resume-button-container">
+    <button id="resume-button">Show My Resume</button>
+</div>
+</div>
+</section>
+
+<!-- Resume Modal -->
+<div id="resume-modal" class="modal">
+<div class="modal-content">
+<span class="close-button">&times;</span>
+<h2>My Resume</h2>
+<iframe src="C:\Users\GUNA\Downloads\Portfolio\Resume.pdf" width="100%" height="500px"></iframe>
+</div>
+</div>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="project.jpg" alt="Project 1">
+        <h3>Online IDE</h3>
+        <p>An online compiler is a web-based tool that
+          allows users to write, compile, and run code directly
+          from their browsers without the need for any local
+          installation of development environments. It provides
+          a convenient platformfor coding practice, Syntax
+          highlighting, testing algorithms, and sharing coding.
+          </p>
+      </div>
+      <div class="project-card">
+        <img src="project.jpg" alt="Project 2">
+        <h3>Online Shopping Website</h3>
+        <p>A online shopping website is used to buy
+          goods directly from the sellers, browsing and
+          purchasing orders from home. A basic online shopping
+          website with frontend features.
+          </p>
+      </div>
+      <div class="project-card">
+        <img src="project.jpg" alt="Project 3">
+        <h3>Calendar Using C</h3>
+        <p>A calendar is a widely used tool for scheduling and tracking events, appointments, and deadlines. In C programming, creating a calendar can be achieved by using various data structures and algorithms.</p>
+      </div>
+      <div class="project-card">
+        <img src="project.jpg" alt="Project 4">
+        <h3>Calculator</h3>
+        <p>A calculator website is an online platform that provides users with a variety of mathematical calculation tools, allowing them to perform basic arithmetic operations, complex calculations, and even specialized computations. The primary goal of such a website is to offer a user-friendly interface that simplifies the process of performing calculations without the need for physical calculators or software installations.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill">
+        <div class="skill-name">C</div>
+        <div class="skill-bar" data-percent="90"></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">C++</div>
+        <div class="skill-bar" data-percent="85"></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Java</div>
+        <div class="skill-bar" data-percent="80"></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">SQL</div>
+        <div class="skill-bar" data-percent="75"></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar" data-percent="70"></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar" data-percent="65"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="contact-info">
+          <p>Email: guna.ec21@bitsathy.ac.in</p>
+          <p><t>venkatckg07@gmail.com</p>
+          <p>Phone: 8220099846</p>
+        </div>
+        <div class="legal-info">
+          <p>&copy; 2024 GUNA V. All rights reserved.</p>
+          <p>Privacy Policy | Terms of Service</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
